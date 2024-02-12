@@ -11,7 +11,7 @@ import SwiftUI
 struct MyNewSchoolMammaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(session: MultiPeerBrowser())
         }
     }
 }

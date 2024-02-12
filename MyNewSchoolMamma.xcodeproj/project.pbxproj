@@ -11,6 +11,7 @@
 		E7357BA52B70FCE4007215FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7357BA42B70FCE4007215FC /* ContentView.swift */; };
 		E7357BA72B70FCE5007215FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7357BA62B70FCE5007215FC /* Assets.xcassets */; };
 		E7357BAA2B70FCE5007215FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7357BA92B70FCE5007215FC /* Preview Assets.xcassets */; };
+		E7357BCB2B70FDB3007215FC /* MultiPeerBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7357BCA2B70FDB3007215FC /* MultiPeerBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		E7357BA42B70FCE4007215FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7357BA62B70FCE5007215FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7357BA92B70FCE5007215FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7357BCA2B70FDB3007215FC /* MultiPeerBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeerBrowser.swift; sourceTree = "<group>"; };
+		E7B755322B77B0110049E179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		E7357BA12B70FCE4007215FC /* MyNewSchoolMamma */ = {
 			isa = PBXGroup;
 			children = (
+				E7B755322B77B0110049E179 /* Info.plist */,
 				E7357BA22B70FCE4007215FC /* MyNewSchoolMammaApp.swift */,
 				E7357BA42B70FCE4007215FC /* ContentView.swift */,
+				E7357BCA2B70FDB3007215FC /* MultiPeerBrowser.swift */,
 				E7357BA62B70FCE5007215FC /* Assets.xcassets */,
 				E7357BA82B70FCE5007215FC /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7357BA52B70FCE4007215FC /* ContentView.swift in Sources */,
+				E7357BCB2B70FDB3007215FC /* MultiPeerBrowser.swift in Sources */,
 				E7357BA32B70FCE4007215FC /* MyNewSchoolMammaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +281,8 @@
 				DEVELOPMENT_TEAM = R8K3P62K8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNewSchoolMamma/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mamma;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +312,8 @@
 				DEVELOPMENT_TEAM = R8K3P62K8V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyNewSchoolMamma/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mamma;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
