@@ -29,7 +29,7 @@ class MultiPeerBrowser: NSObject, ObservableObject {
         
         session.delegate = self
         serviceBrowser.delegate = self
-        serviceBrowser.startBrowsingForPeers()
+        serviceBrowser.startBrowsingForPeers() // ricordati di aggiungere "Bonjour services" su info.plist
         print("😀 start browsing")
     }
     
